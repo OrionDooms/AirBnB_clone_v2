@@ -10,7 +10,7 @@ from sqlalchemy import ForeignKey
 
 
 class City(BaseModel, Base):
-     """Representation of city """
+    """Representation of city """
     if getenv('HBNB_TYPE_STORAGE') == 'db':
         __tablename__ = 'cities'
         name = Column(String(128),
