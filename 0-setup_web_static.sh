@@ -6,7 +6,6 @@ sudo apt-get install nginx -y
 #create folders
 sudo mkdir -p /data/web_static/releases/test/
 sudo mkdir -p /data/web_static/shared/
-sudo mkdir -p /data/web_static/shared/
 
 sudo chown -R ubuntu:ubuntu /data/
 #create a fake HTML page testing the configuration
